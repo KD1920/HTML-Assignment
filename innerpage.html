@@ -1,0 +1,650 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta type="text/html;" charset="utf-8" content="width=device-width
+            shrink-to-fit=no">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto"
+            rel="stylesheet">
+        <link href="css/dashboard.css" rel="stylesheet">
+        <link href="css/bootstrap.min.css"
+            rel="stylesheet">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row" id="row1">
+                <div class="col-2" id="menu">
+                    <img id="uicon" src="images/menu-bar.svg" alt="menu icon">
+                    <!-- &nbsp;
+                    &nbsp; -->
+                    <img id="umenu" class="umenu" src="images/header-logo.svg"
+                        alt=" logo">
+                </div>
+                <div class="col-7">
+                    <div id="search"><img id="abcd" src="images/search-icon.svg"
+                            alt="
+                            search-icon">
+                    </div>
+                    <div class="searchtxt">Search</div>
+
+                </div>
+                <div class="col-3">
+                    <div class="d-flex flex-row justify-content-end">
+                        <div id="notification">
+                            <img src="images/notification-icon.svg"
+                                alt="notification-icon">
+                        </div> &nbsp; &nbsp; &nbsp;&nbsp;
+                        <div id="profile">
+                            <img src="images/profile.png">
+                        </div>
+                        <div id="uname"> <strong>John Doe</strong>
+                            <img src="images/downward-arrow.svg"
+                                alt="downward-arrow">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-2" id="dashboard">
+                    <div class="container2">
+                        <div style="float: left;margin-top: 16px; margin-left:
+                            5px;">
+                            <img id="dashpic" src="images/dashboard-default.svg"
+                                alt="">
+                        </div>
+                        <div class="jadu" style="font: normal normal 600
+                            16px/21px Roboto;
+                            letter-spacing: 0px;
+                            text-align: left; margin-top: 20px; margin-left:
+                            35px ;">
+                            Dashboard
+                        </div>
+                    </div>
+                    <div class="container1">
+                        <div style="float: left; margin-left: 5px;">
+                            <img id="dashpic" src="images/graph-active.svg"
+                                alt="">
+                        </div>
+                        <div class="jadu" style="font: normal normal 600
+                            16px/21px Roboto;
+                            letter-spacing: 0px;color: #C8242F;
+                            text-align: left; margin-top: 4px; margin-left:
+                            35px ;">
+                            Analysis
+                        </div>
+                    </div>
+                    <div class="container2">
+                        <div style="float: left; margin-left: 5px;">
+                            <img id="dashpic" src="images/inbox-default.svg"
+                                alt="">
+                        </div>
+                        <div class="jadu" style="font: normal normal 600
+                            16px/21px Roboto;
+                            letter-spacing: 0px;
+                            text-align: left; margin-top: 4px; margin-left:
+                            35px ;">
+                            Inbox
+                        </div>
+                    </div>
+                    <div class="container2">
+                        <div style="float: left; margin-left: 5px;">
+                            <img id="dashpic" src="images/clock-default.svg"
+                                alt="">
+                        </div>
+                        <div class="jadu" style="font: normal normal 600
+                            16px/21px Roboto;
+                            letter-spacing: 0px;
+                            text-align: left; margin-top: 4px; margin-left:
+                            35px ;">
+                            History
+                        </div>
+                    </div>
+                    <div class="container2">
+                        <div style="float: left; margin-left: 5px;">
+                            <img id="dashpic" src="images/user-default.svg"
+                                alt="">
+                        </div>
+                        <div class="jadu" style="font: normal normal 600
+                            16px/21px Roboto;
+                            letter-spacing: 0px;
+                            text-align: left; margin-top: 4px; margin-left:
+                            35px ;">
+                            Users
+                        </div>
+                    </div>
+                    <div class="container2">
+                        <div style="float: left; margin-left: 5px;">
+                            <img id="dashpic"
+                                src="images/maintenance-default.svg" alt="">
+                        </div>
+                        <div class="jadu" style="font: normal normal 600
+                            16px/21px Roboto;
+                            letter-spacing: 0px;
+                            text-align: left; margin-top: 4px; margin-left:
+                            35px ;">
+                            Maintenance
+                        </div>
+                    </div>
+                    <div class="container2">
+                        <div style="float: left; margin-left: 5px;">
+                            <img id="dashpic" src="images/setting-default.svg"
+                                alt="">
+                        </div>
+                        <div class="jadu" style="font: normal normal 600
+                            16px/21px Roboto;
+                            letter-spacing: 0px;
+                            text-align: left; margin-top: 4px; margin-left:
+                            35px ;">
+                            Setting
+                        </div>
+                    </div>
+                </div>
+                <div class="col-10" id="content">
+                    <div class="row" style="width: 100%;">
+                        <strong id="analysis"> Analysis</strong>
+                    </div>
+                    <div class="container" style="width: 95%; height:
+                        fit-content;
+                        margin-bottom: auto;
+                        background-color: white;">
+                        <div class="row" id="inputform">
+                            <b style="font-family: Roboto; font-size: 22px;
+                                color: #3e3e3e;">One
+                                column</b>
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" class="form-control"
+                                        id="exampleInputEmail1"
+                                        placeholder="Name" style="height: 3em;">
+                                </div>
+                                <div class="form-group">
+                                    <div class="dropdown">
+                                        <select class="form-select select
+                                            dropdown-toggle"
+                                            style="height: 3em; color:
+                                            #747272; "
+                                            id="exampleFormControlSelect1">
+                                            <option>Dropdown</option>
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control"
+                                        id="exampleFormControlTextarea1"
+                                        rows="6"
+                                        placeholder="Mulitple Lines"></textarea>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="row" id="inputform">
+                            <b style="font-family: Roboto; font-size: 22px;
+                                color: #3e3e3e;">Two
+                                column</b>
+                            <div class="row" style="padding-right: 0;">
+                                <div class="col">
+                                    <form>
+                                        <div class="form-group" id="inputform2">
+                                            <input type="text"
+                                                class="form-control"
+                                                id="exampleInputEmail1"
+                                                placeholder="Name"
+                                                style="height: 3em;">
+                                        </div>
+                                        <div class="form-group" id="inputform2">
+                                            <input type="password"
+                                                class="form-control"
+                                                id="exampleInputPassword"
+                                                placeholder="Password"
+                                                style="height: 3em;">
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="col" style="padding-right: 0;">
+                                    <form>
+                                        <div class="form-group" id="inputform2">
+                                            <input type="text"
+                                                class="form-control"
+                                                id="exampleInputEmail1"
+                                                placeholder="Username"
+                                                style="height: 3em;">
+                                        </div>
+                                        <div class="form-group" id="inputform2">
+                                            <div class="dropdown">
+                                                <select class="form-select
+                                                    select dropdown-toggle"
+                                                    style="height: 3em; color:
+                                                    #747272; "
+                                                    id="exampleFormControlSelect1">
+                                                    <option>Dropdown</option>
+                                                    <option>1</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                    <option>5</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row" id="inputform">
+                            <b style="font-family: Roboto; font-size: 22px;
+                                color: #3e3e3e;">Three
+                                column</b>
+                            <div class="row" style="padding-right: 0;">
+                                <div class="col">
+                                    <form>
+                                        <div class="form-group" id="inputform2">
+                                            <input type="text"
+                                                class="form-control"
+                                                id="exampleInputEmail1"
+                                                placeholder="Name"
+                                                style="height: 3em;">
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="col">
+                                    <form>
+                                        <div class="form-group" id="inputform2">
+                                            <input type="password"
+                                                class="form-control"
+                                                id="exampleInputEmail1"
+                                                placeholder="Password"
+                                                style="height: 3em;">
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="col" style="padding-right: 0;">
+                                    <form>
+                                        <div class="form-group" id="inputform2">
+                                            <input type="text"
+                                                class="form-control"
+                                                id="exampleInputEmail1"
+                                                placeholder="Disabled"
+                                                style="height: 3em; border: 1px
+                                                dashed #ADADAD" disabled>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row" id="inputform">
+                            <b style="font-family: Roboto; font-size: 22px;
+                                color: #3e3e3e;">Four
+                                column</b>
+                            <div class="row" style="padding-right: 0;">
+                                <div class="col">
+                                    <form>
+                                        <div class="form-group" id="inputform3">
+                                            <input type="text"
+                                                class="form-control"
+                                                id="exampleInputEmail1"
+                                                placeholder="Designation"
+                                                style="height: 3em;">
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="col">
+                                    <form>
+                                        <div class="form-group" id="inputform3">
+                                            <input type="text"
+                                                class="form-control"
+                                                id="exampleInputEmail1"
+                                                placeholder="Name"
+                                                style="height: 3em;">
+                                            <small style="padding-left: 5%;
+                                                font-size: 10px;"
+                                                class="form-text
+                                                text-muted">Enter
+                                                your full Name as per ID</small>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="col">
+                                    <form>
+                                        <div class="form-group" id="inputform3">
+                                            <input type="text"
+                                                class="form-control"
+                                                id="exampleInputEmail1"
+                                                placeholder="Username"
+                                                style="height: 3em;">
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="col" style="padding-right: 0;">
+                                    <form>
+                                        <div class="form-group" id="inputform3">
+                                            <div class="dropdown">
+                                                <select class="form-select
+                                                    select dropdown-toggle"
+                                                    style="height: 3em; color:
+                                                    #747272; "
+                                                    id="exampleFormControlSelect1">
+                                                    <option>Select</option>
+                                                    <option>1</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                    <option>5</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row" id="inputform">
+                            <b style="font-family: Roboto; font-size: 22px;
+                                color: #3e3e3e;">Other
+                                Design Elements </b>
+                            <div class="row" style="padding-right: 0;">
+                                <div class="col" style="margin-top: 2%; ">
+                                    <div class="row" style="color:
+                                        #3e3e3e; font-size: 18px; font-family:
+                                        Roboto; ">
+                                        <b>File upload</b>
+                                    </div>
+                                    <div class="row" style="margin-top:1%;">
+                                        <div class="col">
+                                            <button class="btn border
+                                                border-danger text-danger "
+                                                id="uploadbutton"
+                                                type="button"
+                                                onclick="document.getElementById('upload').click()">
+                                                <span class="glyphicon
+                                                    glyphicon-upload"
+                                                    aria-hidden="true"></span>
+                                                <img
+                                                    src="images/cloud-upload-icon.svg">
+                                                Upload
+                                            </button>
+                                            <input type="file" id="upload"
+                                                style="display:none" />
+                                            <span id="filename" style=" color:
+                                                #ADADAD; font-size:
+                                                12px; font-family: Roboto;
+                                                padding-left:
+                                                3% ;"
+                                                class="pull-right"> No item
+                                                Selected</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row" style="padding-right: 0;">
+                                <div class="col" style="margin-top: 4%;">
+                                    <div class="row" style="color:
+                                        #3e3e3e; font-size: 18px; font-family:
+                                        Roboto; ">
+                                        <b>Radio Button</b>
+                                    </div>
+                                    <div class="row" style="
+                                        margin-top:1%;">
+                                        <div class="col-2">
+                                            <div class="form-check">
+                                                <input class="form-check-input"
+                                                    type="radio"
+                                                    name="flexRadioDefault"
+                                                    id="flexRadioDefault1"
+                                                    checked>
+                                                <label class="form-check-label"
+                                                    for="flexRadioDefault1">
+                                                    Option 1
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="form-check">
+                                                <input class="form-check-input"
+                                                    type="radio"
+                                                    name="flexRadioDefault"
+                                                    id="flexRadioDefault1">
+                                                <label class="form-check-label"
+                                                    for="flexRadioDefault1">
+                                                    Option 2
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-8" style="display:
+                                            none;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row" style="padding-right: 0;">
+                                <div class="col" style="margin-top: 4%;">
+                                    <div class="row" style="color:
+                                        #3e3e3e; font-size: 18px; font-family:
+                                        Roboto; ">
+                                        <b>Checkbox</b>
+                                    </div>
+                                    <div class="row" style="
+                                        margin-top:1%;">
+                                        <div class="col-2">
+                                            <div class="form-check">
+                                                <input class="form-check-input"
+                                                    type="checkbox" value=""
+                                                    id="flexCheckChecked"
+                                                    style="accent-color:
+                                                    #C8242F;"
+                                                    checked>
+                                                <label class="form-check-label"
+                                                    for="flexCheckChecked">
+                                                    Option 1
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-2">
+                                            <div class="form-check">
+                                                <input class="form-check-input"
+                                                    type="checkbox" value=""
+                                                    id="flexCheckDefault"
+                                                    style="accent-color:
+                                                    #C8242F;">
+                                                <label class="form-check-label"
+                                                    for="flexCheckDefault">
+                                                    Option 2
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="col-8" style="display:
+                                            none;">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row" style="padding-right: 0;">
+                                <div class="col" style="margin-top: 4%;">
+                                    <div class="row" style="color:
+                                        #3e3e3e; font-size: 18px; font-family:
+                                        Roboto; ">
+                                        <b>Snackbar</b>
+                                    </div>
+                                    <div class="row" style="margin-top:0%;">
+                                        <div class="col pe-5">
+                                            <div class="row pt-2 border
+                                                border-danger rounded-1"
+                                                id="snackbar" style="height:
+                                                40%;">
+                                                <div class=" col-1"> <img
+                                                        src="images/error-icon.svg"
+                                                        style="height:
+                                                        inherit; ">
+                                                </div>
+                                                <div class="col-11 fs-6
+                                                    text-danger ">
+                                                    This is an error message.
+                                                </div>
+                                            </div>
+                                            <div class="row pt-2 border
+                                                border-warning rounded-1"
+                                                id="snackbar" style="height:
+                                                40%;">
+                                                <div class=" col-1 "> <img
+                                                        src="images/warning-icon.svg"
+                                                        style="height:
+                                                        inherit; ">
+                                                </div>
+                                                <div class="col-11 fs-6
+                                                    text-warning">
+                                                    This is a warning message.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="row pt-2 border
+                                                border-info rounded-1"
+                                                id="snackbar" style="height:
+                                                40%;">
+                                                <div class=" col-1"> <img
+                                                        src="images/info-icon.svg"
+                                                        style="height:
+                                                        inherit; ">
+                                                </div>
+                                                <div class="col-11 fs-6
+                                                    text-info">
+                                                    This is an information
+                                                    message.
+                                                </div>
+                                            </div>
+                                            <div class="row pt-2 border
+                                                border-success rounded-1"
+                                                id="snackbar" style="height:
+                                                40%;">
+                                                <div class=" col-1 "> <img
+                                                        src="images/success-icon.svg"
+                                                        style="height:
+                                                        inherit; ">
+                                                </div>
+                                                <div class="col-11 fs-6
+                                                    text-success">
+                                                    This is a success message.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row" style="padding-right: 0;">
+                                <div class="col" style="margin-top: 6%; ">
+                                    <div class="row" style="color:
+                                        #3e3e3e; font-size: 18px; font-family:
+                                        Roboto; ">
+                                        <b>Call to action</b>
+                                    </div>
+                                    <div class="row" style="margin-top:1%;">
+                                        <div class="col-1 me-5">
+                                            <button class="btn px-4 text-white
+                                                bg-danger border
+                                                border-danger"
+                                                id="uploadbutton"
+                                                type="button">
+                                                <b>Primary</b>
+                                            </button>
+                                        </div>
+                                        <div class="col-1 ms-5">
+                                            <button class="btn px-4 text-danger
+                                                border border-danger"
+                                                id="uploadbutton"
+                                                type="button">
+                                                <b>Secondary</b>
+                                            </button>
+                                        </div>
+                                        <!-- <div col-10></div> -->
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row" style="padding-right: 0;">
+                                <div class="col" style="margin-top: 4%; ">
+                                    <div class="row" style="color:
+                                        #3e3e3e; font-size: 18px; font-family:
+                                        Roboto; ">
+                                        <b>Tabs</b>
+                                    </div>
+                                    <div class="row"
+                                        style="margin-top:1%;">
+                                        <ul class=" nav nav-tabs">
+                                            <li class="nav-item">
+                                                <a class="nav-link active"
+                                                    aria-current="page"
+                                                    data-bs-toggle="tab"
+                                                    href="#dischome">Tab 1</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link"
+                                                    data-bs-toggle="tab"
+                                                    href="#disc1">Tab
+                                                    2</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link"
+                                                    data-bs-toggle="tab"
+                                                    href="#disc2">Tab
+                                                    3</a>
+                                            </li>
+                                        </ul>
+                                        <div class="tab-content">
+                                            <div id="dischome" class=" tab-pane
+                                                active"><br>
+                                                <h3>HOME</h3>
+                                                <p>Lorem ipsum dolor sit amet,
+                                                    consectetur adipisicing
+                                                    elit,
+                                                    sed do eiusmod tempor
+                                                    incididunt ut labore et
+                                                    dolore
+                                                    magna aliqua.</p>
+                                            </div>
+                                            <div id="disc1" class="tab-pane
+                                                fade"><br>
+                                                <h3>Menu 1</h3>
+                                                <p>Ut enim ad minim veniam, quis
+                                                    nostrud exercitation
+                                                    ullamco laboris nisi ut
+                                                    aliquip ex ea commodo
+                                                    consequat.</p>
+                                            </div>
+                                            <div id="disc2" class=" tab-pane
+                                                fade"><br>
+                                                <h3>Menu 2</h3>
+                                                <p>Sed ut perspiciatis unde
+                                                    omnis iste natus error sit
+                                                    voluptatem accusantium
+                                                    doloremque laudantium, totam
+                                                    rem
+                                                    aperiam.</p>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </body>
+    </html>
+
+    <script type="text/javascript" src="/HTML Training Assignment/js/custom.js"></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
